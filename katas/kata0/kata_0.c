@@ -1,37 +1,32 @@
-#include <math.h>
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-#include <assert.h>
-#include <limits.h>
-#include <stdbool.h>
 
 int main(){
-    int n; 
-    int k; 
-    scanf("%d %d",&n,&k);
-    int *a = malloc(sizeof(int) * n);
-    for(int a_i = 0; a_i < n; a_i++){
-       scanf("%d",&a[a_i]);
-    }
-    
-    //int *b = malloc(sizeof(int) * n);
-
-    for(int f=0; f < k; f++){
-    int primero = a[0];
-    for(int i = 0; i < n; i++){
-        a[i] = a[i + 1];
-    }
-
-    a[n -1] = primero;
-    }
-
-    for(int l=0; l<n;l++){
-        printf("%d ", a[l]);
-    }
-
-    printf("\n");
-
-    return 0;
    
+    int arreglo[] = {1,2,3,4,5};
+    int suma = 9;
+
+    if (sizeof(arreglo)>=2)
+    {
+
+        for (int i = 0; i < sizeof(arreglo); ++i)
+        {
+            int temp = arreglo[i];
+
+            if (temp < suma)
+            {
+                for (int j = i; j < sizeof(arreglo); ++j)
+                {
+                    int temp2 = arreglo[j];
+                    if (temp + temp2 == suma)
+                    {
+                        printf("El valor 1 = %i, El valor 2 = %i\n", temp, temp2);
+                        return 0;
+                    }
+                }
+            }
+        }
+    }
+
+    printf("No se pudo encontrar el valor %i\n", suma);
+    return 0;
 }
