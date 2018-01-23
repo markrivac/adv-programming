@@ -40,8 +40,8 @@ int testSubstraction(){
 int main(){
 
 	printTestMessage(testSubstraction(),
-					 "Substraction test passed",
-					 "Substraction test Failed");
+					 "Add test passed",
+					 "Add test Failed");
 
 	printTestMessage(testAddition(),
 					 "Substraction test passed",
