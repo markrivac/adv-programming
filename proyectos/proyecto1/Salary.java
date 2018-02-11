@@ -49,10 +49,8 @@ public class Salary {
 		int middleNumber = Character.getNumericValue(salary[middlePoint]);
 
 		if (salary[leftPointer] < salary[rightPointer] && middleNumber < 9 && !hasEvenNumberOfElements(salary.length)) {
-			System.out.println("Entró");
 			middleNumber++;
 			char middleChar = (char) (middleNumber + '0');
-			System.out.println("middle"+middleChar);
 			salary[middlePoint] = middleChar;
 
 		}else{
