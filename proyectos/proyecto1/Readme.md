@@ -17,3 +17,11 @@ input	output
 
 Problem Author: Leonid Volkov, Oleg Kats
 Problem Source: USU Open Collegiate Programming Contest October'2001 Junior Session
+
+Solution
+
+The solution for this problem can be found on the Salary.java file.
+
+To compile: javac Salary.java
+To run: java Salary <String of numbers>
+  Example: java Salary 12345321

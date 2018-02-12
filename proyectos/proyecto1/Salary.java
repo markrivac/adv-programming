@@ -3,7 +3,7 @@ public class Salary {
 
 	public static void main(String[] args) {
 
-		String oldSalary1 = "45632763";
+		String oldSalary1 = args[0];
 		// new salary should be "4582854"
 
 		String newSalary = getNewSalary(oldSalary1);
@@ -73,7 +73,8 @@ public class Salary {
 
 		int leftSide = 0;
 		int rightSide = salary.length-1;
-		for (int i = 0; i < (salary.length-1)/2; i++) {
+
+		while (leftSide < rightSide) {
 			salary[rightSide] = salary[leftSide];
 			rightSide --;
 			leftSide ++;
