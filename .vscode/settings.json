@@ -3,6 +3,9 @@
         "stdio.h": "c",
         "hash.h": "c",
         "__functional_03": "c",
-        "functional": "c"
+        "functional": "c",
+        "iostream": "c",
+        "ostream": "c",
+        "string": "c"
     }
 }
