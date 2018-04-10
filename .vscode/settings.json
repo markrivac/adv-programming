@@ -6,6 +6,7 @@
         "functional": "c",
         "iostream": "c",
         "ostream": "c",
-        "string": "c"
+        "string": "c",
+        "string.h": "c"
     }
 }
