@@ -5,6 +5,7 @@ typedef struct s {
     char lastName[20];
     short Id;
     char semester[3];
+    char free;
 } Student;
 
 int main(){
@@ -16,6 +17,7 @@ int main(){
         sprintf(pAvanzada[i].lastName, "Lastname%i", i);
         pAvanzada[i].Id = i;
         sprintf(pAvanzada[i].semester, "S%i", i);
+        pAvanzada[i].free = 0;
         
     }
 
