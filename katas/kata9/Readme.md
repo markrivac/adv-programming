@@ -23,7 +23,7 @@ Se pensó el siguiente pseudo-código:
 
     findMovies(flight_lenght, movies_length):
         for (i = 0, i < movies_length - 1; i++):
-            for (i = 1, j < movies_length; j++):
+            for (j = i + 1, j < movies_length; j++):
                 if (movies_length[i] + movies_length[j] = flight_lenght):
                     return true;
         return false;
