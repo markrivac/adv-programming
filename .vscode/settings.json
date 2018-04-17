@@ -7,6 +7,8 @@
         "iostream": "c",
         "ostream": "c",
         "string": "c",
-        "string.h": "c"
+        "string.h": "c",
+        "locale": "c",
+        "__locale": "c"
     }
 }
