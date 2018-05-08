@@ -9,6 +9,16 @@
         "string": "c",
         "string.h": "c",
         "locale": "c",
-        "__locale": "c"
+        "__locale": "c",
+        "memory": "cpp",
+        "utility": "cpp",
+        "__config": "cpp",
+        "__nullptr": "cpp",
+        "exception": "cpp",
+        "initializer_list": "cpp",
+        "new": "cpp",
+        "stdexcept": "cpp",
+        "typeinfo": "cpp",
+        "algorithm": "cpp"
     }
 }

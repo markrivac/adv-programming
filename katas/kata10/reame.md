@@ -27,8 +27,8 @@ But the second continuation byte does not start with 10, so it is invalid.
 
 Break down:
 
-Es necesario crear una función que regrese un booleano dependiendo de lo que sea ingresado.
-Los parámetros que la función recibe son el array de números y el tamaño del array.
+1. Es necesario crear una función que regrese un booleano dependiendo de lo que sea ingresado.
+2. Los parámetros que la función recibe son el array de números y el tamaño del array.
 Lo que la función hace es recorrer el array mediante un loop.
-Para cada número se identidica el tipo de byte que le corresponde al character.
-Para cada uno te regresa un verdadero si cumple con la responsabilidad de si empieza con 10.
+3. Para cada número se identidica el tipo de byte que le corresponde al character.
+4. Para cada uno te regresa un verdadero si cumple con la responsabilidad de si empieza con 10.
